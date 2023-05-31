@@ -1,0 +1,31 @@
+.foodGrid{
+    border-left: 100px solid grey;
+    border-right: 100px solid grey;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.pic{
+    max-width: 365px;
+    height: 250px;
+}
+
+.description{
+    color: rgb(16, 123, 224);
+    font-size: 1.3rem;
+}
+
+.loremText {
+    max-width: 25vw;
+}
+
+.price {
+    color: aqua;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+   
